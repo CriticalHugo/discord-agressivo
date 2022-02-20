@@ -1,4 +1,7 @@
-const xingamento = ["Pode dar meia volta... ninguém te quer aqui", "Desculpa se eu me atrasei. É que eu não queria vir."];
+const xingamento = [
+    "Pode dar meia volta... ninguém te quer aqui",
+    "Desculpa se eu me atrasei. É que eu não queria vir."
+];
 
 module.exports = {
     name: "cheguei",

@@ -1,9 +1,9 @@
 const xingamento = [
-    "A menos que seu nome seja Google, pare de agir como se você soubesse tudo."
+    "Arrebentou as prega, foi?"
 ];
 
 module.exports = {
-    name: "eu sei",
+    name: "caguei",
     exe(message, args) {
         message.channel.send(`${xingamento[Math.floor(Math.random()*xingamento.length)]}`);
     }

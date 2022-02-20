@@ -1,4 +1,9 @@
-const xingamento = ["Filha da puta é você", "Arrombado", "Filha de rapariga!", "Lazarento!"];
+const xingamento = [
+    "Filha da puta é você",
+    "Arrombado",
+    "Filha de rapariga!",
+    "Lazarento!"
+];
 
 module.exports = {
     name: "da puta",
