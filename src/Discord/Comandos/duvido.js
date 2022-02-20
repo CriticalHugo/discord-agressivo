@@ -1,4 +1,6 @@
-const xingamento = ["Meu pau no seu ouvido"];
+const xingamento = [
+    "Meu pau no seu ouvido"
+];
 
 module.exports = {
     name: "duvido",
