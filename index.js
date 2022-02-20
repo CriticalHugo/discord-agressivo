@@ -29,8 +29,8 @@ client.on("messageCreate", async message => {
                 try {
                     command.exe(message, args);
                     return;
-                }catch {
-
+                }catch(err) {
+                    console.log(err);
                 }
 
             }
