@@ -31,7 +31,6 @@ client.on("messageCreate", async message => {
                     command.exe(message, args);
                     return;
                 }catch(err) {
-                    console.log(err);
                 }
 
             }
