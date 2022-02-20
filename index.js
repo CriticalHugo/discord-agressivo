@@ -1,5 +1,5 @@
 const { Client, Intents } = require('discord.js');
-const TOKEN='';
+const TOKEN='OTQ0NzQxMjI1MDk1OTIxNjc1.YhGA1A.yyfYCs7Yx9ZbP7X0UJ5dnF-yKbI';
 
 const myIntents = new Intents();
 myIntents.add(Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES);
