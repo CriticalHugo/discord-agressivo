@@ -1,0 +1,1 @@
+{"main":"index.js","scripts":{"start":"node index.js"},"dependencies":{"discord.js":"^13.6.0","git":"^0.1.5"},"engines":{"node":">=16.0.0","npm":">=7.0.0"}}
