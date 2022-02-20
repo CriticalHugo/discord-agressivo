@@ -24,8 +24,9 @@ client.on("messageCreate", async message => {
             command.exe(message, args);
             return;
         }catch(err) {
-            if (args.length > y){
-                command = handler.findCommand(`${args[y].toLowerCase()} ${args[y+1].toLowerCase()}`);
+            let z = y + 1;
+            if (args.length >= z){
+                command = handler.findCommand(`${args[y].toLowerCase()} ${args[z].toLowerCase()}`);
                 try {
                     command.exe(message, args);
                     return;
