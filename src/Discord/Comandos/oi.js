@@ -1,4 +1,4 @@
-const xingamento = ["Ih, to saindo...", "Oi"];
+const xingamento = ["Ih, to saindo...", "Oi", "Você parece melhor de boca fechada."];
 
 module.exports = {
     name: "oi",
