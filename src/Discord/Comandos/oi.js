@@ -1,8 +1,9 @@
-//Ih, to saindo...
+const xingamento = ["Ih, to saindo...", "Oi"];
 
 module.exports = {
     name: "oi",
+    aliases: ["oie", "oii"],
     exe(message, args) {
-       message.channel.send(`Ih, to saindo...`);
+       message.channel.send(`${xingamento[Math.floor(Math.random()*xingamento.length)]}`);
     }
 }
